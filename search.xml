@@ -4,6 +4,9 @@
     <title>TestPage</title>
     <url>/TestPage.html</url>
     <content><![CDATA[<p>This is a Test Page!!!</p>
+<span id="more"></span>
+<p>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!</p>
+<p>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!</p>
 ]]></content>
       <categories>
         <category>Windows</category>
@@ -16,6 +19,7 @@
     <title>Hello World</title>
     <url>/hello-world.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
