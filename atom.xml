@@ -3,11 +3,11 @@
   <title>King&#39;s blog</title>
   
   
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="https://lokingyuen.github.io/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://lokingyuen.github.io/"/>
   <updated>2022-10-03T08:45:45.736Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://lokingyuen.github.io/</id>
   
   <author>
     <name>King LO</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>TestPage</title>
-    <link href="http://yoursite.com/TestPage.html"/>
-    <id>http://yoursite.com/TestPage.html</id>
+    <link href="https://lokingyuen.github.io/TestPage.html"/>
+    <id>https://lokingyuen.github.io/TestPage.html</id>
     <published>2022-10-03T07:16:44.000Z</published>
     <updated>2022-10-03T08:45:45.736Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="Windows" scheme="http://yoursite.com/categories/Windows/"/>
+    <category term="Windows" scheme="https://lokingyuen.github.io/categories/Windows/"/>
     
     
-    <category term="test" scheme="http://yoursite.com/tags/test/"/>
+    <category term="test" scheme="https://lokingyuen.github.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world.html"/>
-    <id>http://yoursite.com/hello-world.html</id>
+    <link href="https://lokingyuen.github.io/hello-world.html"/>
+    <id>https://lokingyuen.github.io/hello-world.html</id>
     <published>2022-10-02T13:22:27.585Z</published>
     <updated>2022-10-03T08:45:52.377Z</updated>
     
