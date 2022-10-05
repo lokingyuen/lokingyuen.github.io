@@ -6,7 +6,7 @@
   <link href="https://lokingyuen.github.io/atom.xml" rel="self"/>
   
   <link href="https://lokingyuen.github.io/"/>
-  <updated>2022-10-05T04:43:43.568Z</updated>
+  <updated>2022-10-05T07:00:36.359Z</updated>
   <id>https://lokingyuen.github.io/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內</title>
+    <link href="https://lokingyuen.github.io/bat-01.html"/>
+    <id>https://lokingyuen.github.io/bat-01.html</id>
+    <published>2022-10-05T05:55:05.000Z</published>
+    <updated>2022-10-05T07:00:36.359Z</updated>
+    
+    <content type="html"><![CDATA[<p>特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。</p><span id="more"></span><h2 id="操作示範"><a href="#操作示範" class="headerlink" title="操作示範"></a>操作示範</h2><p>新建一個記事本文件（txt文件），然後將下列代碼複製到新建的 txt 文件中（注意修改將文件路徑以及文件後綴名改成自己的），然後將 txt 後綴名改成 bat，最後雙擊運行。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br><span class="line">md <span class="string">&quot;C:\test2\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\test2\%%~ni\&quot;</span><br><span class="line">)</span><br><span class="line">pause</span><br></pre></td></tr></table></figure><h2 id="代碼解釋"><a href="#代碼解釋" class="headerlink" title="代碼解釋"></a>代碼解釋</h2><p>“C:\test2”要改為需操作的文件夾路徑， (*.jpg)要改為文件的 後綴名。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br></pre></td></tr></table></figure><p>** 也要改成相對應的路徑，比如：“C:***%%~ni\”</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">md <span class="string">&quot;C:\***\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\***\%%~ni\&quot;</span><br></pre></td></tr></table></figure><h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p>運行前 —–&gt;運行后<br><img src="https://s2.loli.net/2022/10/05/FBd6ARsWfVq9ylL.jpg"><br><img src="https://s2.loli.net/2022/10/05/UzKLS2YDeMGOqls.jpg"></p><p><br><br>其實這是 腳本（.bat）的其中一項小功能，同學們要勇於發掘，善用Google老師，科技改變生活。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="windows" scheme="https://lokingyuen.github.io/categories/windows/"/>
+    
+    
+    <category term="windows" scheme="https://lokingyuen.github.io/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ReNamer 批次更改檔名軟件</title>
     <link href="https://lokingyuen.github.io/tools-ReNamer.html"/>
     <id>https://lokingyuen.github.io/tools-ReNamer.html</id>
     <published>2022-10-04T10:55:58.000Z</published>
-    <updated>2022-10-05T04:43:43.568Z</updated>
+    <updated>2022-10-05T06:58:21.324Z</updated>
     
-    <content type="html"><![CDATA[<p>相信大家在日常電腦辦公時，經常需要重新命名大量照片、影片、音樂、Office文件、資料夾等所有在電腦中的檔案。King Sir曾經看到有人逐個逐個文件改名，真心佩服（夠薑你就改幾萬份文件0_0），無論對耐力、眼力、身心都是極大考驗，為大家工作效率（健康）著想，於是整理出 ReNamer 工具教學，分享俾大家。</p><span id="more"></span><h2 id="ReNamer"><a href="#ReNamer" class="headerlink" title="ReNamer"></a>ReNamer</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://www.den4b.com/products/renamer">Download</a> <br>請注意： 需要管理員身份才能正確安裝  <br><br>如果介意安裝軟件的小朋友，官方都好貼心給出免安裝版，選擇Portable下載 解壓後就可以使用啦（良心o(╥﹏╥)o）</p><h3 id="使用教學"><a href="#使用教學" class="headerlink" title="使用教學"></a>使用教學</h3><h4 id="許可"><a href="#許可" class="headerlink" title="許可"></a>許可</h4><p>第一次使用，看到這一版，唔好驚。同意許可，聲明作個人和學習用途，點擊 Accept。 <br><img src="https://s2.loli.net/2022/10/04/ZABKtEzfcwOP7NH.jpg"> </p><h4 id="更改語言"><a href="#更改語言" class="headerlink" title="更改語言"></a>更改語言</h4><p>英文差的同學請先更改語言，精通八國語言的高手請無視。<br><img src="https://s2.loli.net/2022/10/04/yTKlg14JxMcsdmz.jpg"></p><h4 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h4><p>就三個，分別是操作區、規則區、文件名字預覽區<br><img src="https://s2.loli.net/2022/10/04/viCzaSe6WD4FbMG.jpg"></p><h4 id="神操作"><a href="#神操作" class="headerlink" title="神操作"></a>神操作</h4><p>拖動選中的文件 至 文件預覽區<br><img src="https://s2.loli.net/2022/10/04/VRqcAhfbP698lOH.jpg"><br><br>添加改名規則，例如：想將“-副本”刪除，我使用的方法係將“-副本”替換成 空白（唔好再問我空白係咩，即係咩都唔入）<br><img src="https://s2.loli.net/2022/10/04/QaB9512ocGLsknY.jpg"><br><br>新名稱的 藍色 文件名就係加規則后的效果，再檢查多一次（錯左就67），確認無誤後點擊 重新命名。<br><img src="https://s2.loli.net/2022/10/04/z83wpKDgNk7rqFe.jpg"><br><br>最終效果<br><img src="https://s2.loli.net/2022/10/04/6ixOTZdsNbaCURG.jpg"></p><h4 id="補充說明"><a href="#補充說明" class="headerlink" title="補充說明"></a>補充說明</h4><p>有小朋友話點解文件夾拖入去冇反應呢，原來係有個選項要打開<br><img src="https://s2.loli.net/2022/10/04/Kaf2hVMveFt4BUI.jpg"></p><p><br><br>其實 ReNamer 有多種不同的重命名組合方式，用你地聰明的大腦解決問題啦！<br><br>係無聊的時候養左隻貓  —————————–&gt;</p>]]></content>
+    <content type="html"><![CDATA[<p>相信大家在日常電腦辦公時，經常需要重新命名大量照片、影片、音樂、Office文件、資料夾等所有在電腦中的檔案。King Sir曾經看到有人逐個逐個文件改名，真心佩服（夠薑你就改幾萬份文件0_0），無論對耐力、眼力、身心都是極大考驗，為大家工作效率（健康）著想，於是整理出 ReNamer 工具教學，分享俾大家。</p><span id="more"></span><h2 id="ReNamer"><a href="#ReNamer" class="headerlink" title="ReNamer"></a>ReNamer</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://www.den4b.com/products/renamer">Download</a> <br>請注意： 需要管理員身份才能正確安裝  <br><br>如果介意安裝軟件的同學仔，官方都好貼心給出免安裝版，選擇Portable下載 解壓後就可以使用啦（良心o(╥﹏╥)o）</p><h3 id="使用教學"><a href="#使用教學" class="headerlink" title="使用教學"></a>使用教學</h3><h4 id="許可"><a href="#許可" class="headerlink" title="許可"></a>許可</h4><p>第一次使用，看到這一版，唔好驚。同意許可，聲明作個人和學習用途，點擊 Accept。 <br><img src="https://s2.loli.net/2022/10/04/ZABKtEzfcwOP7NH.jpg"> </p><h4 id="更改語言"><a href="#更改語言" class="headerlink" title="更改語言"></a>更改語言</h4><p>英文差的同學請先更改語言，精通八國語言的高手請無視。<br><img src="https://s2.loli.net/2022/10/04/yTKlg14JxMcsdmz.jpg"></p><h4 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h4><p>就三個，分別是操作區、規則區、文件名字預覽區<br><img src="https://s2.loli.net/2022/10/04/viCzaSe6WD4FbMG.jpg"></p><h4 id="神操作"><a href="#神操作" class="headerlink" title="神操作"></a>神操作</h4><p>拖動選中的文件 至 文件預覽區<br><img src="https://s2.loli.net/2022/10/04/VRqcAhfbP698lOH.jpg"><br><br>添加改名規則，例如：想將“-副本”刪除，我使用的方法係將“-副本”替換成 空白（唔好再問我空白係咩，即係咩都唔入）<br><img src="https://s2.loli.net/2022/10/04/QaB9512ocGLsknY.jpg"><br><br>新名稱的 藍色 文件名就係加規則后的效果，再檢查多一次（錯左就67），確認無誤後點擊 重新命名。<br><img src="https://s2.loli.net/2022/10/04/z83wpKDgNk7rqFe.jpg"><br><br>最終效果<br><img src="https://s2.loli.net/2022/10/04/6ixOTZdsNbaCURG.jpg"></p><h4 id="補充說明"><a href="#補充說明" class="headerlink" title="補充說明"></a>補充說明</h4><p>有同學仔話點解文件夾拖入去冇反應呢，原來係有個選項要打開<br><img src="https://s2.loli.net/2022/10/04/Kaf2hVMveFt4BUI.jpg"></p><p><br><br>其實 ReNamer 有多種不同的重命名組合方式，用你地聰明的大腦解決問題啦！<br><br>係無聊的時候養左隻貓  —————————–&gt;</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;相信大家在日常電腦辦公時，經常需要重新命名大量照片、影片、音樂、Office文件、資料夾等所有在電腦中的檔案。King Sir曾經看到有人逐個逐個文件改名，真心佩服（夠薑你就改幾萬份文件0_0），無論對耐力、眼力、身心都是極大考驗，為大家工作效率（健康）著想，於是整理出 ReNamer 工具教學，分享俾大家。&lt;/p&gt;</summary>

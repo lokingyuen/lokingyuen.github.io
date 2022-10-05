@@ -32,24 +32,31 @@
   gtag('config', 'G-FY3LWHR3DP');
 </script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="King&#39;s blog">
-<meta property="og:url" content="https://lokingyuen.github.io/categories/tools/index.html">
+    <meta name="description" content="特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內">
+<meta property="og:url" content="https://lokingyuen.github.io/bat-01.html">
 <meta property="og:site_name" content="King&#39;s blog">
+<meta property="og:description" content="特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。">
 <meta property="og:locale" content="zh_HK">
+<meta property="og:image" content="https://s2.loli.net/2022/10/05/FBd6ARsWfVq9ylL.jpg">
+<meta property="og:image" content="https://s2.loli.net/2022/10/05/UzKLS2YDeMGOqls.jpg">
+<meta property="article:published_time" content="2022-10-05T05:55:05.000Z">
+<meta property="article:modified_time" content="2022-10-05T07:00:36.359Z">
 <meta property="article:author" content="King LO">
-<meta property="article:tag" content="Windows, Server, OBS">
+<meta property="article:tag" content="windows">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/10/05/FBd6ARsWfVq9ylL.jpg">
 
 
-<link rel="canonical" href="https://lokingyuen.github.io/categories/tools/">
+<link rel="canonical" href="https://lokingyuen.github.io/bat-01.html">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-HK","comments":"","permalink":"","path":"categories/tools/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-HK","comments":true,"permalink":"https://lokingyuen.github.io/bat-01.html","path":"bat-01.html","title":"Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分類: tools | King's blog</title>
+<title>Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內 | King's blog</title>
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FY3LWHR3DP"></script>
   <script>
@@ -153,7 +160,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目錄
@@ -166,6 +173,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%A4%BA%E7%AF%84"><span class="nav-number">1.</span> <span class="nav-text">操作示範</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A2%BC%E8%A7%A3%E9%87%8B"><span class="nav-number">2.</span> <span class="nav-text">代碼解釋</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA"><span class="nav-number">3.</span> <span class="nav-text">效果展示</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -227,50 +235,121 @@
 </noscript>
 
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">tools
-          <small>分類</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-HK">
+    <link itemprop="mainEntityOfPage" href="https://lokingyuen.github.io/bat-01.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/apple-touch-icon-next.png">
+      <meta itemprop="name" content="King LO">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="King's blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內 | King's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+
+      <time title="創建時間：2022-10-05 13:55:05 / 修改時間：15:00:36" itemprop="dateCreated datePublished" datetime="2022-10-05T13:55:05+08:00">2022-10-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分類於</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/windows/" itemprop="url" rel="index"><span itemprop="name">windows</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="閱讀次數" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">閱讀次數：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。</p>
+<span id="more"></span>
+<h2 id="操作示範"><a href="#操作示範" class="headerlink" title="操作示範"></a>操作示範</h2><p>新建一個記事本文件（txt文件），然後將下列代碼複製到新建的 txt 文件中（注意修改將文件路徑以及文件後綴名改成自己的），然後將 txt 後綴名改成 bat，最後雙擊運行。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br><span class="line">md <span class="string">&quot;C:\test2\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\test2\%%~ni\&quot;</span><br><span class="line">)</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="代碼解釋"><a href="#代碼解釋" class="headerlink" title="代碼解釋"></a>代碼解釋</h2><p>“C:\test2”要改為需操作的文件夾路徑， (*.jpg)要改為文件的 後綴名。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br></pre></td></tr></table></figure>
+<p>** 也要改成相對應的路徑，比如：“C:***%%~ni\”</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">md <span class="string">&quot;C:\***\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\***\%%~ni\&quot;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p>運行前 —–&gt;運行后<br><img src="https://s2.loli.net/2022/10/05/FBd6ARsWfVq9ylL.jpg"><br><img src="https://s2.loli.net/2022/10/05/UzKLS2YDeMGOqls.jpg"></p>
+<p><br><br>其實這是 腳本（.bat）的其中一項小功能，同學們要勇於發掘，善用Google老師，科技改變生活。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-10-04T18:55:58+08:00"
-              content="2022-10-04">
-          10-04
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/tools-ReNamer.html" itemprop="url">
-            <span itemprop="name">ReNamer 批次更改檔名軟件</span>
-          </a>
-      </div>
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/windows/" rel="tag"><i class="fa fa-tag"></i> windows</a>
+          </div>
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/tools-ReNamer.html" rel="prev" title="ReNamer 批次更改檔名軟件">
+                  <i class="fa fa-chevron-left"></i> ReNamer 批次更改檔名軟件
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
 
 </div>
   </main>
