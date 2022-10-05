@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TestPage</title>
-    <url>/TestPage.html</url>
-    <content><![CDATA[<p>This is a Test Page!!!</p>
-<span id="more"></span>
-<p>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!</p>
-<p>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!<br>This is a Test Page!!!</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ReNamer 批次更改檔名軟件</title>
     <url>/tools-ReNamer.html</url>
     <content><![CDATA[<p>相信大家在日常電腦辦公時，經常需要重新命名大量照片、影片、音樂、Office文件、資料夾等所有在電腦中的檔案。King Sir曾經看到有人逐個逐個文件改名，真心佩服（夠薑你就改幾萬份文件0_0），無論對耐力、眼力、身心都是極大考驗，為大家工作效率（健康）著想，於是整理出 ReNamer 工具教學，分享俾大家。</p>
