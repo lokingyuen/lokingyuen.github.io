@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/hello-world.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內</title>
     <url>/bat-01.html</url>
     <content><![CDATA[<p>特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。</p>
@@ -110,38 +91,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Snipaste 一個簡單但強大的貼圖工具</title>
-    <url>/tools-snipaste.html</url>
-    <content><![CDATA[<p>大名鼎鼎的 Snipaste，相信很多人都在用它。 顧名思義，Snipaste &#x3D; Snip + Paste，即截圖 + 貼圖。 Sinpaste能夠大大提高你的生產力。</p>
+    <title>Hello World</title>
+    <url>/hello-world.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="Snipaste"><a href="#Snipaste" class="headerlink" title="Snipaste"></a>Snipaste</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://www.snipaste.com/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  <br><br>官方都也可選擇免安裝便攜版 和MacOS 的Beta 版。</p>
-<h3 id="建議設置"><a href="#建議設置" class="headerlink" title="建議設置"></a>建議設置</h3><p>建議打開開機啟動，這兩個選項都要打開</p>
-<img src="https://s2.loli.net/2022/10/08/oxD7PuynbQ8LSJ2.png" > 
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><h4 id="截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。"><a href="#截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。" class="headerlink" title="截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。"></a>截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。</h4><img src="https://s2.loli.net/2022/10/08/GIbgXknDsQLVp1Z.webp" > 
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<h4 id="贴图"><a href="#贴图" class="headerlink" title="贴图"></a>贴图</h4><p>使圖片成為一個窗口並置頂顯示：</p>
-<img src="https://s2.loli.net/2022/10/08/mJbskWwIQ6nKgqB.gif" > 
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>貼圖窗口可以旋轉、縮放、半透明、鼠標穿透：</p>
-<img src="https://s2.loli.net/2022/10/08/4GDko7KNPsSFJze.gif" > 
-
-<p>截图记录回放：</p>
-<img src="https://s2.loli.net/2022/10/08/bcBaYMOKoPe5G4j.gif" > 
-
-<p>標記筆功能：</p>
-<img src="https://s2.loli.net/2022/10/08/uenPqAMUgNkXKOI.gif" > 
-
-<h4 id="取消"><a href="#取消" class="headerlink" title="取消"></a>取消</h4><p>当前截图： 任何时刻按 Esc</p>
-<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>Snipaste 不只是截圖，善用貼圖功能將幫助你提升工作效率！軟體的功能與靈活度太強大，要詳細介紹各項操作功能實在力所不及，官方網站有詳細教學文章可以參考，感興趣的話，請抽空讀一讀<a href="https://docs.snipaste.com/">用戶手冊</a>。</p>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>tools</tag>
-      </tags>
   </entry>
   <entry>
     <title>Caesium 開源的圖片批量壓縮工具</title>
@@ -175,6 +141,40 @@
 
 <h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>不過「 Caesium 」也不是沒有缺點，他在 JPG 照片的壓縮上效果非常好，但是對於 PNG 圖片的壓縮就不是那麼擅長，壓縮的比例沒有 <a href="https://tinypng.com//">TinyPNG</a>那麼理想。</p>
 <p>但是如果需要一款开源、免安裝、批量操作的快速縮圖軟體，可以沒有圖片大小與數量限制，一鍵大量壓縮圖片體積、一鍵大量調整圖片大小的同學，「 Caesium 」是一個很有用的選擇。</p>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Snipaste 一個簡單但強大的貼圖工具</title>
+    <url>/tools-snipaste.html</url>
+    <content><![CDATA[<p>大名鼎鼎的 Snipaste，相信很多人都在用它。 顧名思義，Snipaste &#x3D; Snip + Paste，即截圖 + 貼圖。 Sinpaste能夠大大提高你的生產力。</p>
+<span id="more"></span>
+
+<h2 id="Snipaste"><a href="#Snipaste" class="headerlink" title="Snipaste"></a>Snipaste</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://www.snipaste.com/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  <br><br>官方都也可選擇免安裝便攜版 和MacOS 的Beta 版。</p>
+<h3 id="建議設置"><a href="#建議設置" class="headerlink" title="建議設置"></a>建議設置</h3><p>建議打開開機啟動，這兩個選項都要打開</p>
+<img src="https://s2.loli.net/2022/10/08/oxD7PuynbQ8LSJ2.png" > 
+
+<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><h4 id="截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。"><a href="#截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。" class="headerlink" title="截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。"></a>截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。</h4><img src="https://s2.loli.net/2022/10/08/GIbgXknDsQLVp1Z.webp" > 
+
+<h4 id="贴图"><a href="#贴图" class="headerlink" title="贴图"></a>贴图</h4><p>使圖片成為一個窗口並置頂顯示：</p>
+<img src="https://s2.loli.net/2022/10/08/mJbskWwIQ6nKgqB.gif" > 
+
+<p>貼圖窗口可以旋轉、縮放、半透明、鼠標穿透：</p>
+<img src="https://s2.loli.net/2022/10/08/4GDko7KNPsSFJze.gif" > 
+
+<p>截图记录回放：</p>
+<img src="https://s2.loli.net/2022/10/08/bcBaYMOKoPe5G4j.gif" > 
+
+<p>標記筆功能：</p>
+<img src="https://s2.loli.net/2022/10/08/uenPqAMUgNkXKOI.gif" > 
+
+<h4 id="取消"><a href="#取消" class="headerlink" title="取消"></a>取消</h4><p>当前截图： 任何时刻按 Esc</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>Snipaste 不只是截圖，善用貼圖功能將幫助你提升工作效率！軟體的功能與靈活度太強大，要詳細介紹各項操作功能實在力所不及，官方網站有詳細教學文章可以參考，感興趣的話，請抽空讀一讀<a href="https://docs.snipaste.com/">用戶手冊</a>。</p>
 ]]></content>
       <categories>
         <category>tools</category>
