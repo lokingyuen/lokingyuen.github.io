@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Potplayer 強大的本地視頻播放器</title>
+    <url>/tools-Potplayer.html</url>
+    <content><![CDATA[<p>Potplayer界面非常地簡潔，軟件體積小，佔用內存極低，擁有異常強大的內置音視頻解碼器，可以支持幾乎全部音樂、視頻文件格式的播放。但是很多人把他當做普通的播放器來使用，完全沒有發揮出它的作用。本教程就簡單調教 Potplayer。</p>
+<span id="more"></span>
+
+<h2 id="Potplayer"><a href="#Potplayer" class="headerlink" title="Potplayer"></a>Potplayer</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://potplayer.daum.net/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  </p>
+<p><br>安裝時有兩個地方需要注意一下，額外的 編碼器強烈建議都安裝</p>
+<p><img src="https://s2.loli.net/2022/10/07/iI7bxYokXOjNzR3.png" width="50%"><img src="https://s2.loli.net/2022/10/07/AVaqmKjy6LYbric.png" width="50%"></p>
+<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p>快捷鍵</p>
+<p>C、 加速，單次增加0.1倍速，可持續增加到12倍，並保持畫面流暢，不跳，不卡。</p>
+<p>X、 減速，單次減速0.1倍速，可持續減速到0.2倍。</p>
+<p>Z、 快速恢復原始速度、正常速度</p>
+<p>I\O、快速调整图像色彩度+&#x2F;-</p>
+<p>Q、所有调整复位</p>
+<p>D\F、前后逐帧预览</p>
+<p>G、自定义</p>
+<p>ctrl+c、直接截取复制当前画面。可以复制到微信对话窗口或其他地方</p>
+<p>alt+n、截取当前画面并保存</p>
+<p>alt+c、录制</p>
+<p>alt+k、画面旋转</p>
+<h3 id="進階設置"><a href="#進階設置" class="headerlink" title="進階設置"></a>進階設置</h3><h4 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h4><p>1.開啟多執行模式（就是二郎神模式，可以同時看3個或以上 個視頻）</p>
+<p>2.關閉煩人的更新提醒</p>
+<img src="https://s2.loli.net/2022/10/07/wrpQDxoaBthA3My.png" width="75%">
+
+<h4 id="播放"><a href="#播放" class="headerlink" title="播放"></a>播放</h4><p>1.播放窗口大小-維持原樣， 每次打開新視頻就不會改變你的窗口啦。</p>
+<p>2.記憶播放進度，煲劇一定要打開。</p>
+<p>3.縮略圖也很重要，可以方便我們 定位到自己所需的時間點。</p>
+<img src="https://s2.loli.net/2022/10/07/nxO9XaLowA7kceH.png" width="75%">
+
+<h4 id="補幀"><a href="#補幀" class="headerlink" title="補幀"></a>補幀</h4><p>我們補幀的目的就是把把視頻從24幀提升到60幀或者更高，能夠很直觀欣賞到流暢的畫面。</p>
+<img src="https://s2.loli.net/2022/10/07/aH9VGUzFMS7Cji5.png" width="75%">
+<img src="https://s2.loli.net/2022/10/07/te5abwsW1NOpHiZ.png" width="75%">
+
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>這一章講的都是很入門但卻很實用的內容，大家不妨自己試試，僅僅需要調整內置的各類設置，就可以讓potplayer更加貼合自己的使用習慣。</p>
+<p>其實PotPlayer還有更多妙用，等待著你們的發現哦~</p>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ReNamer 批次更改檔名軟件</title>
     <url>/tools-ReNamer.html</url>
     <content><![CDATA[<p>相信大家在日常電腦辦公時，經常需要重新命名大量照片、影片、音樂、Office文件、資料夾等所有在電腦中的檔案。King Sir曾經看到有人逐個逐個文件改名，真心佩服（夠薑你就改幾萬份文件0_0），無論對耐力、眼力、身心都是極大考驗，為大家工作效率（健康）著想，於是整理出 ReNamer 工具教學，分享俾大家。</p>
@@ -11,8 +55,48 @@
 <h4 id="更改語言"><a href="#更改語言" class="headerlink" title="更改語言"></a>更改語言</h4><p>英文差的同學請先更改語言，精通八國語言的高手請無視。<br><img src="https://s2.loli.net/2022/10/04/yTKlg14JxMcsdmz.jpg"></p>
 <h4 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h4><p>就三個，分別是操作區、規則區、文件名字預覽區<br><img src="https://s2.loli.net/2022/10/04/viCzaSe6WD4FbMG.jpg"></p>
 <h4 id="神操作"><a href="#神操作" class="headerlink" title="神操作"></a>神操作</h4><p>拖動選中的文件 至 文件預覽區<br><img src="https://s2.loli.net/2022/10/04/VRqcAhfbP698lOH.jpg"><br><br>添加改名規則，例如：想將“-副本”刪除，我使用的方法係將“-副本”替換成 空白（唔好再問我空白係咩，即係咩都唔入）<br><img src="https://s2.loli.net/2022/10/04/QaB9512ocGLsknY.jpg"><br><br>新名稱的 藍色 文件名就係加規則后的效果，再檢查多一次（錯左就67），確認無誤後點擊 重新命名。<br><img src="https://s2.loli.net/2022/10/04/z83wpKDgNk7rqFe.jpg"><br><br>最終效果<br><img src="https://s2.loli.net/2022/10/04/6ixOTZdsNbaCURG.jpg"></p>
-<h4 id="補充說明"><a href="#補充說明" class="headerlink" title="補充說明"></a>補充說明</h4><p>有同學仔話點解文件夾拖入去冇反應呢，原來係有個選項要打開<br><img src="https://s2.loli.net/2022/10/04/Kaf2hVMveFt4BUI.jpg"></p>
-<p><br><br>其實 ReNamer 有多種不同的重命名組合方式，用你地聰明的大腦解決問題啦！<br><br>係無聊的時候養左隻貓  —————————–&gt;</p>
+<h4 id="補充說明"><a href="#補充說明" class="headerlink" title="補充說明"></a>補充說明</h4><p>有同學仔話點解文件夾拖入去冇反應呢，原來係有個選項要打開<br><img src="https://s2.loli.net/2022/10/04/Kaf2hVMveFt4BUI.jpg"><br>\</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>其實 ReNamer 有多種不同的重命名組合方式，用你地聰明的大腦解決問題啦！<br><br>係無聊的時候養左隻貓  ——————————————-&gt;</p>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Caesium 開源的圖片批量壓縮工具</title>
+    <url>/tools-caesium.html</url>
+    <content><![CDATA[<p>好多同學的圖片在上傳至網站之前，圖片是一定要經過壓縮處理的，以免造成不必要的流量浪費。而且，在線壓縮的網站都是有數量的限制。本文是要介紹一款在網絡上許多人推薦的Caesium圖片壓縮工具，Caesium是一款開放原始碼免費的批量圖片壓縮工具，簡單好用。</p>
+<span id="more"></span>
+
+<h2 id="Caesium-Image-Compressor"><a href="#Caesium-Image-Compressor" class="headerlink" title="Caesium Image Compressor"></a>Caesium Image Compressor</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://saerasoft.com/caesium#downloads">Download</a> <br>請注意： 需要管理員身份才能正確安裝  <br><br>官方都也同時提供了 Portable 和MacOS 的DMG安裝檔。</p>
+<h3 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h3><p>主要分三個區域，簡單易懂。</p>
+<img src="https://s2.loli.net/2022/10/08/nHogOxeMa7GlYwt.png" > 
+
+<h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>1.將需要壓縮的圖片 拖進預覽區</p>
+<img src="https://s2.loli.net/2022/10/08/9lSo3DzQYeVRZBv.png" > 
+
+<p>2.在對應的圖片類型的 Quality 中輸入需要壓縮後的圖片 質量。（按需選填）</p>
+<img src="https://s2.loli.net/2022/10/08/nQFNeWM3UBugz9w.png" >
+
+<p>3.在Resize 中選擇需要壓縮的 圖片像素。（按需選填）</p>
+<img src="https://s2.loli.net/2022/10/08/vVDK7yRCli5w1LI.png" >
+
+<p>4.在output 里選擇輸出路徑。</p>
+<img src="https://s2.loli.net/2022/10/08/sqBoK6bgmUyH71C.png" >
+
+<p>5.最後，確認無誤，點擊 Compress。</p>
+<img src="https://s2.loli.net/2022/10/08/oVvyJslNKXjQt6U.png" >
+
+<p>6.效果演示</p>
+<img src="https://s2.loli.net/2022/10/08/Kbs3JNUGhWwXLfB.png" > 
+
+<img src="https://s2.loli.net/2022/10/08/rHs1Y5Bzd4qR2fp.png" > 
+
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>不過「 Caesium 」也不是沒有缺點，他在 JPG 照片的壓縮上效果非常好，但是對於 PNG 圖片的壓縮就不是那麼擅長，壓縮的比例沒有 <a href="https://tinypng.com//">TinyPNG</a>那麼理想。</p>
+<p>但是如果需要一款开源、免安裝、批量操作的快速縮圖軟體，可以沒有圖片大小與數量限制，一鍵大量壓縮圖片體積、一鍵大量調整圖片大小的同學，「 Caesium 」是一個很有用的選擇。</p>
 ]]></content>
       <categories>
         <category>tools</category>
@@ -63,50 +147,6 @@
       </categories>
       <tags>
         <tag>windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Potplayer 強大的本地視頻播放器</title>
-    <url>/tools-Potplayer.html</url>
-    <content><![CDATA[<p>Potplayer界面非常地簡潔，軟件體積小，佔用內存極低，擁有異常強大的內置音視頻解碼器，可以支持幾乎全部音樂、視頻文件格式的播放。但是很多人把他當做普通的播放器來使用，完全沒有發揮出它的作用。本教程就簡單調教 Potplayer。</p>
-<span id="more"></span>
-
-<h2 id="Potplayer"><a href="#Potplayer" class="headerlink" title="Potplayer"></a>Potplayer</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://potplayer.daum.net/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  </p>
-<p><br>安裝時有兩個地方需要注意一下，額外的 編碼器強烈建議都安裝</p>
-<p><img src="https://s2.loli.net/2022/10/07/iI7bxYokXOjNzR3.png" width="50%"><img src="https://s2.loli.net/2022/10/07/AVaqmKjy6LYbric.png" width="50%"></p>
-<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p>快捷鍵</p>
-<p>C、 加速，單次增加0.1倍速，可持續增加到12倍，並保持畫面流暢，不跳，不卡。</p>
-<p>X、 減速，單次減速0.1倍速，可持續減速到0.2倍。</p>
-<p>Z、 快速恢復原始速度、正常速度</p>
-<p>I\O、快速调整图像色彩度+&#x2F;-</p>
-<p>Q、所有调整复位</p>
-<p>D\F、前后逐帧预览</p>
-<p>G、自定义</p>
-<p>ctrl+c、直接截取复制当前画面。可以复制到微信对话窗口或其他地方</p>
-<p>alt+n、截取当前画面并保存</p>
-<p>alt+c、录制</p>
-<p>alt+k、画面旋转</p>
-<h3 id="進階設置"><a href="#進階設置" class="headerlink" title="進階設置"></a>進階設置</h3><h4 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h4><p>1.開啟多執行模式（就是二郎神模式，可以同時看3個或以上 個視頻）</p>
-<p>2.關閉煩人的更新提醒</p>
-<img src="https://s2.loli.net/2022/10/07/wrpQDxoaBthA3My.png" width="75%">
-
-<h4 id="播放"><a href="#播放" class="headerlink" title="播放"></a>播放</h4><p>1.播放窗口大小-維持原樣， 每次打開新視頻就不會改變你的窗口啦。</p>
-<p>2.記憶播放進度，煲劇一定要打開。</p>
-<p>3.縮略圖也很重要，可以方便我們 定位到自己所需的時間點。</p>
-<img src="https://s2.loli.net/2022/10/07/nxO9XaLowA7kceH.png" width="75%">
-
-<h4 id="補幀"><a href="#補幀" class="headerlink" title="補幀"></a>補幀</h4><p>我們補幀的目的就是把把視頻從24幀提升到60幀或者更高，能夠很直觀欣賞到流暢的畫面。</p>
-<img src="https://s2.loli.net/2022/10/07/aH9VGUzFMS7Cji5.png" width="75%">
-<img src="https://s2.loli.net/2022/10/07/te5abwsW1NOpHiZ.png" width="75%">
-
-<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>這一章講的都是很入門但卻很實用的內容，大家不妨自己試試，僅僅需要調整內置的各類設置，就可以讓potplayer更加貼合自己的使用習慣。</p>
-<p>其實PotPlayer還有更多妙用，等待著你們的發現哦~</p>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>tools</tag>
       </tags>
   </entry>
 </search>
