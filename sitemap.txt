@@ -8,7 +8,7 @@ https://lokingyuen.github.io/categories/index.html
 https://lokingyuen.github.io/hello-world.html
 https://lokingyuen.github.io/about/index.html
 https://lokingyuen.github.io/
-https://lokingyuen.github.io/tags/windows/
 https://lokingyuen.github.io/tags/tools/
-https://lokingyuen.github.io/categories/windows/
+https://lokingyuen.github.io/tags/windows/
 https://lokingyuen.github.io/categories/tools/
+https://lokingyuen.github.io/categories/windows/
