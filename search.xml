@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/hello-world.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內</title>
     <url>/bat-01.html</url>
     <content><![CDATA[<p>特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。</p>
@@ -45,48 +26,52 @@
       </tags>
   </entry>
   <entry>
-    <title>Potplayer 強大的本地視頻播放器</title>
-    <url>/tools-Potplayer.html</url>
-    <content><![CDATA[<p>Potplayer界面非常地簡潔，軟件體積小，佔用內存極低，擁有異常強大的內置音視頻解碼器，可以支持幾乎全部音樂、視頻文件格式的播放。但是很多人把他當做普通的播放器來使用，完全沒有發揮出它的作用。本教程就簡單調教 Potplayer。</p>
+    <title>AdGuard 有史以來最強大的良心廣告攔截器</title>
+    <url>/chrome-extensions-01.html</url>
+    <content><![CDATA[<p>有人說，Chrome 的好用在於強大的插件。又有人說，chrome因插件而美麗！今日推薦的是有史以來最強大的良心廣告攔截器 – AdGuard</p>
 <span id="more"></span>
 
-<h2 id="Potplayer"><a href="#Potplayer" class="headerlink" title="Potplayer"></a>Potplayer</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://potplayer.daum.net/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  </p>
-<p><br>安裝時有兩個地方需要注意一下，額外的 編碼器強烈建議都安裝</p>
-<p><img src="https://s2.loli.net/2022/10/07/iI7bxYokXOjNzR3.png" width="50%"><img src="https://s2.loli.net/2022/10/07/AVaqmKjy6LYbric.png" width="50%"></p>
-<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p>快捷鍵</p>
-<p>C、 加速，單次增加0.1倍速，可持續增加到12倍，並保持畫面流暢，不跳，不卡。</p>
-<p>X、 減速，單次減速0.1倍速，可持續減速到0.2倍。</p>
-<p>Z、 快速恢復原始速度、正常速度</p>
-<p>I\O、快速调整图像色彩度+&#x2F;-</p>
-<p>Q、所有调整复位</p>
-<p>D\F、前后逐帧预览</p>
-<p>G、自定义</p>
-<p>ctrl+c、直接截取复制当前画面。可以复制到微信对话窗口或其他地方</p>
-<p>alt+n、截取当前画面并保存</p>
-<p>alt+c、录制</p>
-<p>alt+k、画面旋转</p>
-<h3 id="進階設置"><a href="#進階設置" class="headerlink" title="進階設置"></a>進階設置</h3><h4 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h4><p>1.開啟多執行模式（就是二郎神模式，可以同時看3個或以上 個視頻）</p>
-<p>2.關閉煩人的更新提醒</p>
-<img src="https://s2.loli.net/2022/10/07/wrpQDxoaBthA3My.png" width="75%">
+<h3 id="AdGuard-AdBlocker"><a href="#AdGuard-AdBlocker" class="headerlink" title="AdGuard AdBlocker"></a>AdGuard AdBlocker</h3><p>因為忍受唔到漫天的廣告。花了一上午尋找對抗廣告的各種方法。 我發現AdGuard可能是你最好的選擇。下載、等待、開啟、打開網頁。感覺一瞬間整個世界清淨了。</p>
+<p>最近發現可以Block YouTube的廣告啦！！！</p>
+<h4 id="對比"><a href="#對比" class="headerlink" title="對比"></a>對比</h4><p>使用一個廣告測試頁面，比出效果</p>
+<img src="https://s2.loli.net/2022/10/13/5sakXWnqRGu4tPm.png" > 
 
-<h4 id="播放"><a href="#播放" class="headerlink" title="播放"></a>播放</h4><p>1.播放窗口大小-維持原樣， 每次打開新視頻就不會改變你的窗口啦。</p>
-<p>2.記憶播放進度，煲劇一定要打開。</p>
-<p>3.縮略圖也很重要，可以方便我們 定位到自己所需的時間點。</p>
-<img src="https://s2.loli.net/2022/10/07/nxO9XaLowA7kceH.png" width="75%">
+<h4 id="安裝插件"><a href="#安裝插件" class="headerlink" title="安裝插件"></a>安裝插件</h4><p>1.如果有條件，可以直接在谷歌 <a href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg">Chrome 商店</a>下載安裝。如果無法訪問 Chrome 商店，請在擴展迷下載AdGuard 廣告攔截器插件的安裝包，解壓後將 crx 文件安裝到你的谷歌瀏覽器上。</p>
+<p>2.Edge可以直接在 <a href="https://microsoftedge.microsoft.com/addons/detail/adguard-%E5%BB%A3%E5%91%8A%E5%B0%81%E9%8E%96%E5%99%A8/pdffkfellgipmhklpdmokmckkkfcopbh?hl=zh-TW">Microsoftedge</a> 裡面安裝（沒墻）</p>
+<h4 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h4><p>AdGuard 廣告攔截器插件下載安裝完成後，無需註冊和登錄就可以直接啟用，用戶也可以對該插件的功能進行自定義設置。</p>
+<img src="https://s2.loli.net/2022/10/13/p7iYVgXtkTQRzCs.png" > 
 
-<h4 id="補幀"><a href="#補幀" class="headerlink" title="補幀"></a>補幀</h4><p>我們補幀的目的就是把把視頻從24幀提升到60幀或者更高，能夠很直觀欣賞到流暢的畫面。</p>
-<img src="https://s2.loli.net/2022/10/07/aH9VGUzFMS7Cji5.png" width="75%">
-<img src="https://s2.loli.net/2022/10/07/te5abwsW1NOpHiZ.png" width="75%">
+<p>若是想查看 AdGuard 廣告攔截器插件攔截網頁廣告、彈窗的記錄，可以直接點擊瀏覽器上方的綠色盾牌圖片進行打開。</p>
+<img src="https://s2.loli.net/2022/10/13/2bghcdl49ZvkqRM.jpg" > 
 
-<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>這一章講的都是很入門但卻很實用的內容，大家不妨自己試試，僅僅需要調整內置的各類設置，就可以讓potplayer更加貼合自己的使用習慣。</p>
-<p>其實PotPlayer還有更多妙用，等待著你們的發現哦~</p>
+<h4 id="End"><a href="#End" class="headerlink" title="End"></a>End</h4><p>總之，一句話：有了AdGuard,什麼也不怕！</p>
+<p>&lt;—————-最近添加了音樂播放器（左下角），大家可以邊聽邊睇，enjoy！</p>
 ]]></content>
       <categories>
-        <category>tools</category>
+        <category>chrome</category>
       </categories>
       <tags>
-        <tag>tools</tag>
+        <tag>chrome</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/hello-world.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>ReNamer 批次更改檔名軟件</title>
@@ -101,40 +86,6 @@
 <h4 id="神操作"><a href="#神操作" class="headerlink" title="神操作"></a>神操作</h4><p>拖動選中的文件 至 文件預覽區<br><img src="https://s2.loli.net/2022/10/04/VRqcAhfbP698lOH.jpg"><br><br>添加改名規則，例如：想將“-副本”刪除，我使用的方法係將“-副本”替換成 空白（唔好再問我空白係咩，即係咩都唔入）<br><img src="https://s2.loli.net/2022/10/04/QaB9512ocGLsknY.jpg"><br><br>新名稱的 藍色 文件名就係加規則后的效果，再檢查多一次（錯左就67），確認無誤後點擊 重新命名。<br><img src="https://s2.loli.net/2022/10/04/z83wpKDgNk7rqFe.jpg"><br><br>最終效果<br><img src="https://s2.loli.net/2022/10/04/6ixOTZdsNbaCURG.jpg"></p>
 <h4 id="補充說明"><a href="#補充說明" class="headerlink" title="補充說明"></a>補充說明</h4><p>有同學仔話點解文件夾拖入去冇反應呢，原來係有個選項要打開<br><img src="https://s2.loli.net/2022/10/04/Kaf2hVMveFt4BUI.jpg"><br>\</p>
 <h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>其實 ReNamer 有多種不同的重命名組合方式，用你地聰明的大腦解決問題啦！<br><br>係無聊的時候養左隻貓  ——————————————-&gt;</p>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Snipaste 一個簡單但強大的貼圖工具</title>
-    <url>/tools-snipaste.html</url>
-    <content><![CDATA[<p>大名鼎鼎的 Snipaste，相信很多人都在用它。 顧名思義，Snipaste &#x3D; Snip + Paste，即截圖 + 貼圖。 Sinpaste能夠大大提高你的生產力。</p>
-<span id="more"></span>
-
-<h2 id="Snipaste"><a href="#Snipaste" class="headerlink" title="Snipaste"></a>Snipaste</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://www.snipaste.com/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  <br><br>官方都也可選擇免安裝便攜版 和MacOS 的Beta 版。</p>
-<h3 id="建議設置"><a href="#建議設置" class="headerlink" title="建議設置"></a>建議設置</h3><p>建議打開開機啟動，這兩個選項都要打開</p>
-<img src="https://s2.loli.net/2022/10/08/oxD7PuynbQ8LSJ2.png" > 
-
-<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><h4 id="截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。"><a href="#截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。" class="headerlink" title="截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。"></a>截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。</h4><img src="https://s2.loli.net/2022/10/08/GIbgXknDsQLVp1Z.webp" > 
-
-<h4 id="贴图"><a href="#贴图" class="headerlink" title="贴图"></a>贴图</h4><p>使圖片成為一個窗口並置頂顯示：</p>
-<img src="https://s2.loli.net/2022/10/08/mJbskWwIQ6nKgqB.gif" > 
-
-<p>貼圖窗口可以旋轉、縮放、半透明、鼠標穿透：</p>
-<img src="https://s2.loli.net/2022/10/08/4GDko7KNPsSFJze.gif" > 
-
-<p>截图记录回放：</p>
-<img src="https://s2.loli.net/2022/10/08/bcBaYMOKoPe5G4j.gif" > 
-
-<p>標記筆功能：</p>
-<img src="https://s2.loli.net/2022/10/08/uenPqAMUgNkXKOI.gif" > 
-
-<h4 id="取消"><a href="#取消" class="headerlink" title="取消"></a>取消</h4><p>当前截图： 任何时刻按 Esc</p>
-<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>Snipaste 不只是截圖，善用貼圖功能將幫助你提升工作效率！軟體的功能與靈活度太強大，要詳細介紹各項操作功能實在力所不及，官方網站有詳細教學文章可以參考，感興趣的話，請抽空讀一讀<a href="https://docs.snipaste.com/">用戶手冊</a>。</p>
 ]]></content>
       <categories>
         <category>tools</category>
@@ -184,32 +135,81 @@
       </tags>
   </entry>
   <entry>
-    <title>AdGuard 有史以來最強大的良心廣告攔截器</title>
-    <url>/chrome-extensions-01.html</url>
-    <content><![CDATA[<p>有人說，Chrome 的好用在於強大的插件。又有人說，chrome因插件而美麗！今日推薦的是有史以來最強大的良心廣告攔截器 – AdGuard</p>
+    <title>Potplayer 強大的本地視頻播放器</title>
+    <url>/tools-Potplayer.html</url>
+    <content><![CDATA[<p>Potplayer界面非常地簡潔，軟件體積小，佔用內存極低，擁有異常強大的內置音視頻解碼器，可以支持幾乎全部音樂、視頻文件格式的播放。但是很多人把他當做普通的播放器來使用，完全沒有發揮出它的作用。本教程就簡單調教 Potplayer。</p>
 <span id="more"></span>
 
-<h3 id="AdGuard-AdBlocker"><a href="#AdGuard-AdBlocker" class="headerlink" title="AdGuard AdBlocker"></a>AdGuard AdBlocker</h3><p>因為忍受唔到漫天的廣告。花了一上午尋找對抗廣告的各種方法。 我發現AdGuard可能是你最好的選擇。下載、等待、開啟、打開網頁。感覺一瞬間整個世界清淨了。</p>
-<p>最近發現可以Block YouTube的廣告啦！！！</p>
-<h4 id="對比"><a href="#對比" class="headerlink" title="對比"></a>對比</h4><p>使用一個廣告測試頁面，比出效果</p>
-<img src="https://s2.loli.net/2022/10/13/5sakXWnqRGu4tPm.png" > 
+<h2 id="Potplayer"><a href="#Potplayer" class="headerlink" title="Potplayer"></a>Potplayer</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://potplayer.daum.net/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  </p>
+<p><br>安裝時有兩個地方需要注意一下，額外的 編碼器強烈建議都安裝</p>
+<p><img src="https://s2.loli.net/2022/10/07/iI7bxYokXOjNzR3.png" width="50%"><img src="https://s2.loli.net/2022/10/07/AVaqmKjy6LYbric.png" width="50%"></p>
+<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p>快捷鍵</p>
+<p>C、 加速，單次增加0.1倍速，可持續增加到12倍，並保持畫面流暢，不跳，不卡。</p>
+<p>X、 減速，單次減速0.1倍速，可持續減速到0.2倍。</p>
+<p>Z、 快速恢復原始速度、正常速度</p>
+<p>I\O、快速调整图像色彩度+&#x2F;-</p>
+<p>Q、所有调整复位</p>
+<p>D\F、前后逐帧预览</p>
+<p>G、自定义</p>
+<p>ctrl+c、直接截取复制当前画面。可以复制到微信对话窗口或其他地方</p>
+<p>alt+n、截取当前画面并保存</p>
+<p>alt+c、录制</p>
+<p>alt+k、画面旋转</p>
+<h3 id="進階設置"><a href="#進階設置" class="headerlink" title="進階設置"></a>進階設置</h3><h4 id="基本"><a href="#基本" class="headerlink" title="基本"></a>基本</h4><p>1.開啟多執行模式（就是二郎神模式，可以同時看3個或以上 個視頻）</p>
+<p>2.關閉煩人的更新提醒</p>
+<img src="https://s2.loli.net/2022/10/07/wrpQDxoaBthA3My.png" width="75%">
 
-<h4 id="安裝插件"><a href="#安裝插件" class="headerlink" title="安裝插件"></a>安裝插件</h4><p>1.如果有條件，可以直接在谷歌 <a href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg">Chrome 商店</a>下載安裝。如果無法訪問 Chrome 商店，請在擴展迷下載AdGuard 廣告攔截器插件的安裝包，解壓後將 crx 文件安裝到你的谷歌瀏覽器上。</p>
-<p>2.Edge可以直接在 <a href="https://microsoftedge.microsoft.com/addons/detail/adguard-%E5%BB%A3%E5%91%8A%E5%B0%81%E9%8E%96%E5%99%A8/pdffkfellgipmhklpdmokmckkkfcopbh?hl=zh-TW">Microsoftedge</a> 裡面安裝（沒墻）</p>
-<h4 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h4><p>AdGuard 廣告攔截器插件下載安裝完成後，無需註冊和登錄就可以直接啟用，用戶也可以對該插件的功能進行自定義設置。</p>
-<img src="https://s2.loli.net/2022/10/13/p7iYVgXtkTQRzCs.png" > 
+<h4 id="播放"><a href="#播放" class="headerlink" title="播放"></a>播放</h4><p>1.播放窗口大小-維持原樣， 每次打開新視頻就不會改變你的窗口啦。</p>
+<p>2.記憶播放進度，煲劇一定要打開。</p>
+<p>3.縮略圖也很重要，可以方便我們 定位到自己所需的時間點。</p>
+<img src="https://s2.loli.net/2022/10/07/nxO9XaLowA7kceH.png" width="75%">
 
-<p>若是想查看 AdGuard 廣告攔截器插件攔截網頁廣告、彈窗的記錄，可以直接點擊瀏覽器上方的綠色盾牌圖片進行打開。</p>
-<img src="https://s2.loli.net/2022/10/13/2bghcdl49ZvkqRM.jpg" > 
+<h4 id="補幀"><a href="#補幀" class="headerlink" title="補幀"></a>補幀</h4><p>我們補幀的目的就是把把視頻從24幀提升到60幀或者更高，能夠很直觀欣賞到流暢的畫面。</p>
+<img src="https://s2.loli.net/2022/10/07/aH9VGUzFMS7Cji5.png" width="75%">
+<img src="https://s2.loli.net/2022/10/07/te5abwsW1NOpHiZ.png" width="75%">
 
-<h4 id="End"><a href="#End" class="headerlink" title="End"></a>End</h4><p>總之，一句話：有了AdGuard,什麼也不怕！</p>
-<p>&lt;—————-最近添加了音樂播放器（左下角），大家可以邊聽邊睇，enjoy！</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>這一章講的都是很入門但卻很實用的內容，大家不妨自己試試，僅僅需要調整內置的各類設置，就可以讓potplayer更加貼合自己的使用習慣。</p>
+<p>其實PotPlayer還有更多妙用，等待著你們的發現哦~</p>
 ]]></content>
       <categories>
-        <category>chrome</category>
+        <category>tools</category>
       </categories>
       <tags>
-        <tag>chrome</tag>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Snipaste 一個簡單但強大的貼圖工具</title>
+    <url>/tools-snipaste.html</url>
+    <content><![CDATA[<p>大名鼎鼎的 Snipaste，相信很多人都在用它。 顧名思義，Snipaste &#x3D; Snip + Paste，即截圖 + 貼圖。 Sinpaste能夠大大提高你的生產力。</p>
+<span id="more"></span>
+
+<h2 id="Snipaste"><a href="#Snipaste" class="headerlink" title="Snipaste"></a>Snipaste</h2><h3 id="下載-amp-安裝"><a href="#下載-amp-安裝" class="headerlink" title="下載&amp;安裝"></a>下載&amp;安裝</h3><p>點擊這裡下載: <a href="https://www.snipaste.com/">Download</a> <br>請注意： 需要管理員身份才能正確安裝  <br><br>官方都也可選擇免安裝便攜版 和MacOS 的Beta 版。</p>
+<h3 id="建議設置"><a href="#建議設置" class="headerlink" title="建議設置"></a>建議設置</h3><p>建議打開開機啟動，這兩個選項都要打開</p>
+<img src="https://s2.loli.net/2022/10/08/oxD7PuynbQ8LSJ2.png" > 
+
+<h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><h4 id="截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。"><a href="#截圖：快捷键（默认为-F1），Snipaste-有智能選取功能，點擊左鍵選定。" class="headerlink" title="截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。"></a>截圖：快捷键（默认为 F1），Snipaste 有智能選取功能，點擊左鍵選定。</h4><img src="https://s2.loli.net/2022/10/08/GIbgXknDsQLVp1Z.webp" > 
+
+<h4 id="贴图"><a href="#贴图" class="headerlink" title="贴图"></a>贴图</h4><p>使圖片成為一個窗口並置頂顯示：</p>
+<img src="https://s2.loli.net/2022/10/08/mJbskWwIQ6nKgqB.gif" > 
+
+<p>貼圖窗口可以旋轉、縮放、半透明、鼠標穿透：</p>
+<img src="https://s2.loli.net/2022/10/08/4GDko7KNPsSFJze.gif" > 
+
+<p>截图记录回放：</p>
+<img src="https://s2.loli.net/2022/10/08/bcBaYMOKoPe5G4j.gif" > 
+
+<p>標記筆功能：</p>
+<img src="https://s2.loli.net/2022/10/08/uenPqAMUgNkXKOI.gif" > 
+
+<h4 id="取消"><a href="#取消" class="headerlink" title="取消"></a>取消</h4><p>当前截图： 任何时刻按 Esc</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3><p>Snipaste 不只是截圖，善用貼圖功能將幫助你提升工作效率！軟體的功能與靈活度太強大，要詳細介紹各項操作功能實在力所不及，官方網站有詳細教學文章可以參考，感興趣的話，請抽空讀一讀<a href="https://docs.snipaste.com/">用戶手冊</a>。</p>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
       </tags>
   </entry>
 </search>
