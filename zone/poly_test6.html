@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+ 
+  <script>
+ 
+  /**
+    The link that comes out probably looks like this
+    http://xxxx.cn/243423.html?c=Q23DR32
+  */
+ 
+  // c=Q23DR32 is the invitation code obtained by scanning during registration.
+  // If you add parameters this way, the later parameters will be automatically ignored and will not //affect the loading of this page
+ 
+    goDownload();
+ 
+    // goDownload
+    function goDownload() {
+      var u = navigator.userAgent, app = navigator.appVersion;
+      var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1;
+      var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+      // It's an Android browser
+      if (isAndroid) {
+        window.location.href = 'https://files.polyauctionhk.com/download_20220706.apk'; // Jump Android Download Address
+      }
+      // It's an iOS browser
+      if (isIOS) {
+        window.location.href = 'https://apps.apple.com/gb/app/poly-auction-hk/id1626959799'; // Jump AppStore Download Address
+      }
+ 
+      // It's a WeChat internal webView
+      if (is_weixn()) {
+        alert("请点击右上角按钮, 点击使用浏览器打开");
+      }
+ 
+      // It is PC side
+      if (IsPC()) {
+        window.location.href = 'https://files.polyauctionhk.com/download_20220706.apk'; // Company Home or apk
+      }
+    }
+ 
+    // It's WeChat Browser
+    function is_weixn(){
+      var ua = navigator.userAgent.toLowerCase();
+      if(ua.match(/MicroMessenger/i)=="micromessenger") {
+        return true;
+      } else {
+        return false;
+      }
+    }
+ 
+ 
+    function IsPC() {
+      var userAgentInfo = navigator.userAgent;
+      var Agents = ["Android", "iPhone",
+        "SymbianOS", "Windows Phone",
+        "iPad", "iPod"];
+      var flag = true;
+      for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false;
+          break;
+        }
+      }
+      return flag;
+    }
+ 
+  </script>
+</body>
+</html>
