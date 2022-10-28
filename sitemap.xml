@@ -92,13 +92,6 @@
 
   
   <url>
-    <loc>https://lokingyuen.github.io/tags/chrome/</loc>
-    <lastmod>2022-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lokingyuen.github.io/tags/windows/</loc>
     <lastmod>2022-10-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -112,14 +105,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://lokingyuen.github.io/categories/chrome/</loc>
+    <loc>https://lokingyuen.github.io/tags/chrome/</loc>
     <lastmod>2022-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://lokingyuen.github.io/categories/windows/</loc>
@@ -130,6 +123,13 @@
   
   <url>
     <loc>https://lokingyuen.github.io/categories/tools/</loc>
+    <lastmod>2022-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lokingyuen.github.io/categories/chrome/</loc>
     <lastmod>2022-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
