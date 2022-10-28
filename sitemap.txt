@@ -8,9 +8,9 @@ https://lokingyuen.github.io/tags/index.html
 https://lokingyuen.github.io/categories/index.html
 https://lokingyuen.github.io/about/index.html
 https://lokingyuen.github.io/
-https://lokingyuen.github.io/tags/chrome/
 https://lokingyuen.github.io/tags/windows/
+https://lokingyuen.github.io/tags/chrome/
 https://lokingyuen.github.io/tags/tools/
-https://lokingyuen.github.io/categories/chrome/
 https://lokingyuen.github.io/categories/windows/
+https://lokingyuen.github.io/categories/chrome/
 https://lokingyuen.github.io/categories/tools/
