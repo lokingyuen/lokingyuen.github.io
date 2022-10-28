@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內</title>
-    <url>/bat-01.html</url>
-    <content><![CDATA[<p>特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。</p>
-<span id="more"></span>
-<h2 id="操作示範"><a href="#操作示範" class="headerlink" title="操作示範"></a>操作示範</h2><p>新建一個記事本文件（txt文件），然後將下列代碼複製到新建的 txt 文件中（注意修改將文件路徑以及文件後綴名改成自己的），然後將 txt 後綴名改成 bat，最後雙擊運行。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br><span class="line">md <span class="string">&quot;C:\test2\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\test2\%%~ni\&quot;</span><br><span class="line">)</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="代碼解釋"><a href="#代碼解釋" class="headerlink" title="代碼解釋"></a>代碼解釋</h2><p>“C:\test2”要改為需操作的文件夾路徑， (*.jpg)要改為文件的 後綴名。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br></pre></td></tr></table></figure>
-<p>** 也要改成相對應的路徑，比如：“C:***%%~ni\”</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">md <span class="string">&quot;C:\***\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\***\%%~ni\&quot;</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p>運行前 —–&gt;運行后<br><img src="https://s2.loli.net/2022/10/05/FBd6ARsWfVq9ylL.jpg"><br><img src="https://s2.loli.net/2022/10/05/UzKLS2YDeMGOqls.jpg"></p>
-<p><br><br>其實這是 腳本（.bat）的其中一項小功能，同學們要勇於發掘，善用Google老師，科技改變生活。</p>
-]]></content>
-      <categories>
-        <category>windows</category>
-      </categories>
-      <tags>
-        <tag>windows</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AdGuard 有史以來最強大的良心廣告攔截器</title>
     <url>/chrome-extensions-01.html</url>
     <content><![CDATA[<p>有人說，Chrome 的好用在於強大的插件。又有人說，chrome因插件而美麗！今日推薦的是有史以來最強大的良心廣告攔截器 – AdGuard</p>
@@ -52,6 +27,31 @@
       </categories>
       <tags>
         <tag>chrome</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bat：批量創建與文件同名的文件夾，並將文件移動到相應的文件夾內</title>
+    <url>/bat-01.html</url>
+    <content><![CDATA[<p>特殊案例：最近發現有哋同學整理數據時，需要為每個文件創建一個與文件同名的文件夾（同名不同後綴的文件也只創建一個文件夾），並且將文件移動到相應的文件夾中。這種Windows文件重複性工作，我哋可以善用 .bat 腳本以提高效率。</p>
+<span id="more"></span>
+<h2 id="操作示範"><a href="#操作示範" class="headerlink" title="操作示範"></a>操作示範</h2><p>新建一個記事本文件（txt文件），然後將下列代碼複製到新建的 txt 文件中（注意修改將文件路徑以及文件後綴名改成自己的），然後將 txt 後綴名改成 bat，最後雙擊運行。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br><span class="line">md <span class="string">&quot;C:\test2\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\test2\%%~ni\&quot;</span><br><span class="line">)</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="代碼解釋"><a href="#代碼解釋" class="headerlink" title="代碼解釋"></a>代碼解釋</h2><p>“C:\test2”要改為需操作的文件夾路徑， (*.jpg)要改為文件的 後綴名。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> /r <span class="string">&quot;C:\test2&quot;</span> %%i <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br></pre></td></tr></table></figure>
+<p>** 也要改成相對應的路徑，比如：“C:***%%~ni\”</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">md <span class="string">&quot;C:\***\%%~ni\&quot;</span></span><br><span class="line"><span class="string">move &quot;</span>%%i<span class="string">&quot; &quot;</span>C:\***\%%~ni\&quot;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p>運行前 —–&gt;運行后<br><img src="https://s2.loli.net/2022/10/05/FBd6ARsWfVq9ylL.jpg"><br><img src="https://s2.loli.net/2022/10/05/UzKLS2YDeMGOqls.jpg"></p>
+<p><br><br>其實這是 腳本（.bat）的其中一項小功能，同學們要勇於發掘，善用Google老師，科技改變生活。</p>
+]]></content>
+      <categories>
+        <category>windows</category>
+      </categories>
+      <tags>
+        <tag>windows</tag>
       </tags>
   </entry>
   <entry>
