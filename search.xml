@@ -200,8 +200,7 @@
     <content><![CDATA[<p>如果你是預裝Win11或者升級到Win11的筆記本用戶，在首次激活系統的時候，你有沒有被它繁瑣的激活流程勸退了一波？一套組合拳下來少說也有五六分鐘了。那麼有沒有辦法跳過聯網，直接激活系統呢？答案是有的，而且非常簡單，跟著操作，至少為你節省一半的時間。</p>
 <span id="more"></span>
 
-<p>##操作方法</p>
-<p>在聯網界面時，首先按下Shift+F10或者是Fn+Shift+F10快捷鍵調出命令提示符窗口(CMD)，然後輸入taskmgr命令，並按下回車鍵。</p>
+<h2 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h2><p>在聯網界面時，首先按下Shift+F10或者是Fn+Shift+F10快捷鍵調出命令提示符窗口(CMD)，然後輸入taskmgr命令，並按下回車鍵。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">taskmgr</span><br></pre></td></tr></table></figure>
 <img src="https://s2.loli.net/2022/11/14/ciEbZFOSVle5yqG.jpg">
 
